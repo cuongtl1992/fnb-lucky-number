@@ -1,0 +1,68 @@
+:host {
+    display: block;
+    background: #ffcc29;
+    border-radius: 8px;
+    padding: 16px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    animation: custom-dialog-enter 1s ease;
+  }
+  
+  @keyframes custom-dialog-enter {
+    from {
+      transform: scale(0) rotate(360deg);
+    }
+  
+    to {
+      transform: none;
+    }
+}
+
+.lucky-number {
+    color: #a83232;
+    font-weight: bold;
+    font-size: 68px;
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.lucky-header {
+    color: #a83232;
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.lucky-wish {
+    color: #a83232;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.lucky-money {
+    color: #a83232;
+    font-weight: bold;
+    font-size: 66px;
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 79px;
+}

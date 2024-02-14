@@ -1,0 +1,17 @@
+<div class="wrap-card">
+    <span class="lucky-header">
+        Con số may mắn của bạn là
+    </span>
+    <span class="lucky-number">
+        {{ data.number }}
+    </span>
+    <span class="lucky-wish">
+        "{{ data.message }}"
+    </span>
+    <span class="lucky-money" *ngIf="data.money > 100">
+        {{ data.money | number }}đ
+    </span>
+    <span class="lucky-money" *ngIf="data.money <= 100">
+        1 bánh chè Lam
+    </span>
+</div>
