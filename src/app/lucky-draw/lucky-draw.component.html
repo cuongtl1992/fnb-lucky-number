@@ -1,0 +1,11 @@
+<div class="draw-wrap">
+    <div>
+        <span *ngIf="chosenNumber !== undefined && !spinning">Xin chúc mừng số may mắn của chúng ta là con số</span>
+        <div *ngIf="chosenNumber !== undefined" class="number-display active" [class.spinning]="spinning">
+            {{ chosenNumber }}
+        </div>
+        <button (click)="spin()" [disabled]="spinning">Spin</button>
+    </div>
+    
+</div>
+

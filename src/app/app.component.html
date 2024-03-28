@@ -1,8 +1,1 @@
-<div class="container">
-  <div class="lucky-numbers">
-    <span class="number {{openedNumber.indexOf(gift.number) > -1 ? 'opened': '' }}" *ngFor="let gift of gifts"
-      (click)="showLuckyNumber(gift)">
-      {{ openedNumber.indexOf(gift.number) > -1 ? gift.number : "?" }}
-    </span>
-  </div>
-</div>
+<router-outlet></router-outlet>

@@ -8,7 +8,7 @@ body, html {
     background-color: #f0f0f0;
     min-width: 100vw;
     min-height: 100vh;
-    background-image: url('assets/bg3.jpg');
+    background-image: url('assets/kvbg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,12 +64,13 @@ button:hover {
 
 .lucky-numbers {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust based on your layout preference */
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); /* Adjust based on your layout preference */
     gap: 20px;
-    padding: 20px;
+    padding: 30px;
     justify-items: center;
     width: 100%;
-    max-width: 960px; /* Or any max-width that fits your design */
+    max-width: 1080px; /* Or any max-width that fits your design */
+    margin-top: 30px;
 }
 
 .number {
@@ -77,9 +78,9 @@ button:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100px; /* Fixed height for uniformity */
-    background-color: #ffcc29; /* Gold color for prosperity */
-    color: #a83232; /* Red color for good luck */
+    height: 60px; /* Fixed height for uniformity */
+    background-color: #005ac3; /* Gold color for prosperity */
+    color: #009232; /* Red color for good luck */
     font-size: 24px;
     font-weight: bold;
     border-radius: 10px;
@@ -89,8 +90,8 @@ button:hover {
 }
 
 .number.opened {
-    background-color: #a83232; /* Gold color for prosperity */
-    color: #ffcc29; /* Red color for good luck */
+    background-color: #009232; /* Gold color for prosperity */
+    color: #005ac3; /* Red color for good luck */
 }
 
 .number:hover {

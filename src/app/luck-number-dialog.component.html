@@ -1,11 +1,15 @@
 <div class="wrap-card">
-    <span class="lucky-header">
+    <!-- <span class="lucky-header">
         Con số may mắn của bạn là
-    </span>
-    <span class="lucky-number">
+    </span> -->
+    <span class="lucky-number" id="printableArea">
         {{ data.number }}
     </span>
-    <span class="lucky-wish">
+
+    <button (click)="print()">
+        In số
+    </button>
+    <!-- <span class="lucky-wish">
         "{{ data.message }}"
     </span>
     <span class="lucky-money" *ngIf="data.money > 100">
@@ -13,5 +17,5 @@
     </span>
     <span class="lucky-money" *ngIf="data.money <= 100">
         1 bánh chè Lam
-    </span>
+    </span> -->
 </div>
